@@ -1,0 +1,63 @@
+.book-details {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ 
+  }
+  
+  .title {
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #9c27b0; 
+  }
+  
+  .price {
+    margin-bottom: 8px;
+    color: #2e7d32; 
+    font-weight: bold;
+  }
+  
+  .category {
+    margin-bottom: 8px;
+    color: #9c27b0; 
+  }
+  
+  .description {
+    margin-bottom: 8px;
+    color: #666;
+  }
+  
+  .author {
+    margin-bottom: 8px;
+    color: #9c27b0; /* secondary */
+  }
+  
+  .review-summary {
+    color: #666;
+  }
+  
+  .add-review-button {
+    margin-top: 16px;
+    padding-left: 8px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .add-review-button button {
+    border: 1px solid #9c27b0;
+    background-color: transparent;
+    color: #9c27b0;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-review-button button:hover {
+    background-color: #f3e5f5; 
+  }
+  .about-tabs{
+    color: #9c27b0;
+  }
